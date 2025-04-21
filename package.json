@@ -1,0 +1,25 @@
+{
+  "name": "gastracker",
+  "version": "1.0.0",
+  "description": "Ethereum gas fee tracker and prediction tool",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build"
+  },
+  "keywords": ["ethereum", "gas", "tracker", "web3", "blockchain"],
+  "author": "CrystalFoxgame",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  }
+}
