@@ -1,0 +1,54 @@
+.price-alert {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.price-alert h3 {
+  margin: 0 0 15px 0;
+  color: #333;
+}
+
+.alert-input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.alert-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.alert-input button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.alert-input button:hover:not(:disabled) {
+  background-color: #2980b9;
+}
+
+.alert-input button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.alert-status {
+  margin: 10px 0 0 0;
+  padding: 10px;
+  background-color: #e8f5e8;
+  color: #27ae60;
+  border-radius: 4px;
+  font-size: 14px;
+}

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import PriceAlert from './components/PriceAlert';
 import './App.css';
 
 interface GasPrice {
@@ -62,6 +63,9 @@ function App() {
             </div>
           )}
         </div>
+        {gasPrice && (
+          <PriceAlert currentPrice={parseInt(gasPrice.ProposeGasPrice)} />
+        )}
       </main>
     </div>
   );
