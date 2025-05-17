@@ -7,3 +7,4 @@ build/
 CLAUDE.md
 .DS_Store
 coverage/
+server/data/*.json
